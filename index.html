@@ -1,0 +1,134 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Melody Generator</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            text-align: center;
+            margin: 0;
+            padding: 40px 20px;
+            color: #222;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 35px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #4b2aad;
+        }
+
+        h2 {
+            color: #333;
+            margin-top: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #4b2aad;
+            color: white;
+            padding: 12px 20px;
+            margin: 10px;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background: #321b7a;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🎵 AI Melody Generator</h1>
+
+        <p>
+            An AI-based music generation project using
+            LSTM and MIDI music data.
+        </p>
+
+        <h2>📌 Project Overview</h2>
+
+        <p>
+            This project uses a Long Short-Term Memory (LSTM)
+            neural network to learn musical patterns and
+            generate new melodies.
+        </p>
+
+        <h2>🛠️ Technologies Used</h2>
+
+        <p>
+            Python | TensorFlow | LSTM | Music21 |
+            NumPy | Google Colab
+        </p>
+
+        <h2>🎶 Generated Music</h2>
+
+        <p>Listen to the generated audio:</p>
+
+        <audio controls>
+            <source src="generated_music.wav" type="audio/wav">
+            Your browser does not support audio playback.
+        </audio>
+
+        <h2>📂 Project Files</h2>
+
+        <a class="button"
+           href="AI_Melody_Generator_LSTM.ipynb">
+            View Notebook
+        </a>
+
+        <a class="button"
+           href="generated_music.mid"
+           download>
+            Download MIDI
+        </a>
+
+        <a class="button"
+           href="README.md">
+            View README
+        </a>
+
+        <h2>💻 GitHub Repository</h2>
+
+        <a class="button"
+           href="https://github.com/ruthushakuthipudi/AI-Melody-Generator"
+           target="_blank">
+            View GitHub Repository
+        </a>
+
+        <div class="footer">
+            <p>CodeAlpha Artificial Intelligence Internship</p>
+            <p>Created by Ruthusha Kuthipudi</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
